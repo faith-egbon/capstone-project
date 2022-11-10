@@ -26,7 +26,7 @@
   }
 </style>
 
-<!-- <?php session_start(); ?> -->
+<?php session_start(); ?>
 
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top">
@@ -36,7 +36,7 @@
         <span class="text-light fw-bold">
           <h3 class="m-0">
             <!-- <i class="bi bi-coin"></i> -->
-            IM-System
+            Inventory Co
           </h3>
         </span>
       </a>

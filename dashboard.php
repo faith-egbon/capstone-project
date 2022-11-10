@@ -1,15 +1,18 @@
 <?php
-	require_once('./inc/config/constants.php');
-	require_once('./inc/config/db.php');
-	require_once('./inc/navigate.php');
+	
 	session_start();
 	// Redirect the user to login page if he is not logged in.
-	if(($_SESSION['userID'])==false){
+	// if(($_SESSION['userID'])==false){
+	// 	header('Location: login.php');
+	// 	exit();
+	// }
+	if(!isset($_SESSION['loggedIn'])){
 		header('Location: login.php');
 		exit();
 	}
-	// 	header('location: dashboard.php');
-	// }
+	require_once('./inc/config/constants.php');
+	require_once('./inc/config/db.php');
+	require_once('./inc/navigate.php');
 	
 ?>
 
