@@ -8,6 +8,8 @@
 		header('Location: login.php');
 		exit();
 	}
+	// 	header('location: dashboard.php');
+	// }
 	
 ?>
 

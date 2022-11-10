@@ -26,7 +26,7 @@
         </ul>
         <div class="d-flex ms-lg-4">
           <a class="btn button btn-secondary-outline" href="login.php">Login</a>
-          <a class="btn button ms-3" href="login.php?action=register">Register</a></div>
+          <a class="btn button ms-3" href="./capstone/login.php?action=register">Register</a></div>
       </div>
     </div>
   </nav>

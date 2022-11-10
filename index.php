@@ -11,7 +11,7 @@ include('./inc/navigate.php');
         <div class="col-md-6 text-md-start text-center">
           <h1 class="mb-4 fs-9 fw-bold">The Best Tool to Manage your Inventory</h1>
           <p class="mb-6 text-secondary">Tools, tutorials and so much more our platform can effectively and accurately help companies, manufacturers and sellers to keep track and record of the products under their disposition.</p>
-          <div class="text-center text-md-start"><a class="btn button1 me-3 btn-lg" href="../login.php?action=register">Get started</a></div>
+          <div class="text-center text-md-start"><a class="btn button1 me-3 btn-lg" href="login.php?action=register">Get started</a></div>
         </div>
         <div class="col-md-6 text-end"><img class="pt-7 pt-md-0 img-fluid" src="image/inventory1.png" alt="" width="100%"></div>
       </div>
